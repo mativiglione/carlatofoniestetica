@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "CanelaBold";
+    src: url("fuentes/Canela-Bold-Trial.otf");
+}
+
+@font-face {
+    font-family: "CanelaMedium";
+    src: url("fuentes/Canela-Medium-Trial.otf");
+}
+
+@font-face {
+    font-family: "CanelaRegular";
+    src: url("fuentes/Canela-Regular-Trial.otf");
+}
+
+@font-face {
+    font-family: "CanelaLight";
+    src: url("fuentes/Canela-Light-Trial.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+
+h1{
+    font-family: "CanelaRegular";
+}
+
+h2{
+    font-family: "CanelaBold";
+}
+
+h6{
+    font-family: "CanelaMedium";
+}
+
+.nav-item{
+    font-family: 'Marcellus SC', serif;
+    font-size: larger;
+}
+
+p{
+    font-family: 'Marcellus SC', serif;
+    font-size: large;
+}
+
+b{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.servicios, .turnos, .productos, .opiniones, .servicios2, .contact{
+    margin-bottom: 120px;
+}
+
+.servicio{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+}
+
+.tratamiento:hover{
+    transform: scale(1.01, 1.01);
+}
+
+#boton{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    background-color: white;
+    border-color: black;
+}
+
+main{
+    background-color: #e4e4e4;
+}
+
+.carousel-control-next-icon {
+  margin-left: 180px;
+}
+
+.carousel-control-prev-icon{
+  margin-right: 180px;
+}
+
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  
+  #scroll-to-top.show {
+    display: block;
+  }
+
+  .serv{
+    text-decoration: none;
+    color: inherit;
+  }
+
+.links{
+    color: #000;
+    font-size: large;
+}
