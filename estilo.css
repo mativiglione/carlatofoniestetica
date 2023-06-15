@@ -51,6 +51,14 @@ b{
     font-size: larger;
 }
 
+.servsize{
+    font-size: 25px;
+}
+
+.servtsize{
+    font-size: 30px;
+}
+
 .servicios, .turnos, .productos, .opiniones, .servicios2, .contact{
     margin-bottom: 120px;
 }
@@ -65,9 +73,8 @@ b{
 }
 
 #boton{
-    font-family: 'Lora', serif;
-    font-weight: 500;
-    font-size: large;
+    font-family: 'Marcellus SC', serif;
+    font-size: larger;
     background-color: white;
     border-color: black;
 }
@@ -108,3 +115,36 @@ main{
     color: #000;
     font-size: large;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.carousel-control-prev-icon:before {
+  content: "\f053";
+}
+
+.carousel-control-next-icon:before {
+  content: "\f054";
+}
+
+@media (max-width: 576px) {
+    #ubicacion h2 {
+      margin-top: 20px; /* Ajusta este valor según tus necesidades */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-item .row .col-lg-3:not(:first-child) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-item .row .col-lg-4:not(:first-child) {
+      display: none;
+    }
+  }
